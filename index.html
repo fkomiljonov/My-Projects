@@ -1,16 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Farrukhbek Komiljonov | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Space Grotesk', sans-serif;
+      background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+      color: #ffffff;
+      line-height: 1.6;
+    }
+    header {
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+    }
+    nav {
+      text-align: center;
+      margin: 1rem 0;
+    }
+    nav a {
+      color: #61dafb;
+      margin: 0 1rem;
+      text-decoration: none;
+    }
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .project {
+      background-color: rgba(255, 255, 255, 0.05);
+      padding: 1rem;
+      margin: 1rem 0;
+      border-radius: 10px;
+    }
+    .project h3 {
+      color: #61dafb;
+    }
+    iframe {
+      width: 100%;
+      height: 600px;
+      border: none;
+      margin-top: 1rem;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      color: #aaa;
+      font-size: 0.9rem;
+    }
+  </style>
 </head>
 <body>
-    <h1>Welcome to My Portfolio</h1>
-    <p>Here are some of my projects:</p>
-    <ul>
-        <li><a href="https://github.com/yourusername/project1">Project 1</a></li>
-        <li><a href="https://github.com/yourusername/project2">Project 2</a></li>
-    </ul>
+  <header>
+    <h1>Farrukhbek Komiljonov</h1>
+    <p>Financial Economics & Data Enthusiast | Python • Power BI • GitHub</p>
+  </header>
+
+  <nav>
+    <a href="#projects">Projects</a>
+    <a href="#cv">CV</a>
+    <a href="mailto:f.komiljonov@outlook.com">Contact</a>
+  </nav>
+
+  <section id="projects">
+    <h2>Projects Overview</h2>
+    <!-- Projects will go here -->
+    <div class="project">
+      <h3>Coming Soon...</h3>
+      <p>Projects will be added here. Stay tuned!</p>
+    </div>
+  </section>
+
+  <section id="cv">
+    <h2>My CV</h2>
+    <iframe src="assets/Farrukhbek_Komiljonov_CVnn.pdf"></iframe>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Farrukhbek Komiljonov. All rights reserved.</p>
+  </footer>
 </body>
 </html>
